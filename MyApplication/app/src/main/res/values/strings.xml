@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">eTMS</string>
+    <string name="Name1">DHRUBA ROY</string>
+    <string name="EmpId1">2337117</string>
+    <string name="Name2">AYON KHASKEL</string>
+    <string name="EmpId2">2084639</string>
+    <string name="BusStop1">Dunlop</string>
+    <string name="BusStop2">Dakshineswar</string>
+</resources>

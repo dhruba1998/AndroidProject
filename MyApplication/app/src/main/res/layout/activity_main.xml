@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.widget.TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Welcome To"
+            android:textSize="23sp"
+            android:textColor="@color/white"/>
+
+        <android.widget.TextView
+            android:id="@+id/tcsEtmsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="TCS eTMS"
+            android:layout_below="@+id/welcomeText"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        <android.widget.TextView
+            android:id="@+id/selectServicetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="PLEASE SELECT YOUR SERVICE"
+            android:layout_below="@+id/tcsEtmsText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <android.widget.Button
+            android:id="@+id/busServiceButton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/selectServicetext"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="-2dp"
+            android:background="@drawable/custom_button"
+            android:foreground="@drawable/bus_vector"
+            android:foregroundGravity="center_vertical"
+            android:paddingStart="60dp"
+            android:text="Bus Services"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <android.widget.Button
+            android:id="@+id/cabServiceButton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/busServiceButton"
+            android:layout_marginTop="20dp"
+            android:foreground="@drawable/car_vector"
+            android:foregroundGravity="left|center"
+            android:text="Cab Services"
+            android:textSize="25sp"
+            android:paddingStart="60dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+
+        <android.widget.Button
+            android:id="@+id/geoCodeButton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/cabServiceButton"
+            android:layout_marginTop="20dp"
+            android:foreground="@drawable/location_vector"
+            android:foregroundGravity="left|center"
+            android:text="Geocode Yourself"
+            android:textSize="25sp"
+            android:paddingStart="60dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/apply_bus_pass"
+        android:title="Apply Bus Pass" />
+
+    <item
+        android:id="@+id/buspass_request_status"
+        android:title="Buspass Request Status" />
+
+    <item
+        android:id="@+id/back_to_home_page"
+        android:title="Back To Home Page" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+
+</menu>
